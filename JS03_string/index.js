@@ -19,7 +19,7 @@ console.log(formattedName);
 console.log(formattedSurname);   
 
 console.log(userName === formattedName ? "Имя осталось без изменений" : "Имя было преобразовано");
-console.log(userSurname === formattedSurname ? "Фамилия осталась без изменений" : "Фамилия была преобразовано");
+console.log(userSurname === formattedSurname ? "Фамилия осталась без изменений" : "Фамилия была преобразована");
 
 
 // Задание №3. Проверка чётности числа.
