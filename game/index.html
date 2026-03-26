@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра в пары Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Игра в пары</h1>
+        
+        <div id="setup-container" class="setup-form">
+            <p>Введите количество карточек по горизонтали и вертикали <br> 
+               (четное число от 2 до 10):</p>
+            <input type="number" id="grid-input" value="4" step="2" min="2" max="10">
+            <button id="start-btn" class="btn-main">Начать игру</button>
+        </div>
+
+        <div id="game-area" style="display: none;">
+            <div class="timer">Времени осталось: <span id="seconds">60</span> сек.</div>
+            <div id="game-board" class="board"></div>
+            <button id="restart-btn" class="btn-main" style="display: none;">Сыграть ещё раз</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
